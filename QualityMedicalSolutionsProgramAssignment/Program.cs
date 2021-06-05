@@ -1,4 +1,4 @@
-﻿using System;
+﻿using QualityMedicalSolutionsProgramAssignment.Functionality;
 
 namespace QualityMedicalSolutionsProgramAssignment
 {
@@ -6,7 +6,8 @@ namespace QualityMedicalSolutionsProgramAssignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var testCase = new TestCaseBasicFunctionality();
+            testCase.Run(100);
         }
     }
 }
