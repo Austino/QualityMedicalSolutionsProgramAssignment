@@ -16,9 +16,16 @@ namespace QualityMedicalSolutionsProgramAssignment.Functionality
         /// <param name="maxNum">A int.</param>
         internal void Run(int maxNum)
         {
+            // Would maybe think of throwing an exception here if the caller was expecing some kinda output back, but as the
+            // output is purely print to console I have opted to just do an empty return.
+            if(maxNum < 1)
+            {
+                return;
+            }
+
             StringBuilder currentMessage = new StringBuilder();
 
-            for (int i = 1; i < maxNum; i++)
+            for (int i = 1; i <= maxNum; i++)
             {
                 currentMessage.Clear();
                 
