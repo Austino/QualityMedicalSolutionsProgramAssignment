@@ -2,7 +2,7 @@
 A simple C# console app which is a variation of the famous (infamous) BuzzFizz challenge. The program specifies a max number and will print all the numbers from 1 upto max number. If a given number is divisible by 3 it will print Test, if divisible by 5 it will print Case and if divisible by both it will print TestCase. 
 
 # Extendability
-Note to Quality Medical Solutions. If the program needed to be extended to accomodate more divisible checks, it could easily be done. I personally would have a data structure class like this:
+Note to Quality Medical Solutions. If the program needed to be extended to accomodate more divisibility checks, it could easily be done. I personally would have a data structure class like this:
 
 ```
 internal class DivisibilityCheck
